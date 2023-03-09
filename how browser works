@@ -1,0 +1,6 @@
+Learned about how browser works
+
+      1. browser fetches linked resources
+      2. browser builds the document
+      3. browser renders the document
+      4. browser runs scripts
