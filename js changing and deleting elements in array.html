@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Sample JavaScript</title>
+	
+	</head>
+	
+	<body>
+	
+		<p id="1"></p>
+		<p id="2"></p>
+		
+		<script>
+		
+			var fruits=["Apple","Orange","Grape","Mango","Banana","Cherry"];
+			fruits[1]="Kiwi";
+			document.getElementById("1").innerHTML=fruits.join(" * ");
+			delete fruits[3];
+			document.getElementById("2").innerHTML=fruits.join(" * ");
+			
+		
+		</script>
+	
+	</body>
+
+
+
+</html>
